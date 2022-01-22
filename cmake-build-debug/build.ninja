@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/Aleksander/Projects/C/Kolokwium/cmake-build-debu
 
 build cmake_object_order_depends_target_Kolokwium: phony || CMakeFiles/Kolokwium.dir
 
-build CMakeFiles/Kolokwium.dir/zad_2.c.obj: C_COMPILER__Kolokwium_Debug C$:/Users/Aleksander/Projects/C/Kolokwium/zad_2.c || cmake_object_order_depends_target_Kolokwium
-  DEP_FILE = CMakeFiles\Kolokwium.dir\zad_2.c.obj.d
+build CMakeFiles/Kolokwium.dir/zad_3.c.obj: C_COMPILER__Kolokwium_Debug C$:/Users/Aleksander/Projects/C/Kolokwium/zad_3.c || cmake_object_order_depends_target_Kolokwium
+  DEP_FILE = CMakeFiles\Kolokwium.dir\zad_3.c.obj.d
   FLAGS = -g -std=gnu11
   OBJECT_DIR = CMakeFiles\Kolokwium.dir
   OBJECT_FILE_DIR = CMakeFiles\Kolokwium.dir
@@ -63,7 +63,7 @@ build CMakeFiles/Kolokwium.dir/zad_2.c.obj: C_COMPILER__Kolokwium_Debug C$:/User
 #############################################
 # Link the executable Kolokwium.exe
 
-build Kolokwium.exe: C_EXECUTABLE_LINKER__Kolokwium_Debug CMakeFiles/Kolokwium.dir/zad_2.c.obj
+build Kolokwium.exe: C_EXECUTABLE_LINKER__Kolokwium_Debug CMakeFiles/Kolokwium.dir/zad_3.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Kolokwium.dir
