@@ -4,4 +4,4 @@ project(Kolokwium C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(Kolokwium
-        zad_3.c)
+        zad_4.c)
